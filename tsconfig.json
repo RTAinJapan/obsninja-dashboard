@@ -1,0 +1,8 @@
+{
+	"extends": "@hoishin/tsconfig",
+	"compilerOptions": {
+		"lib": ["DOM", "ES2018"],
+		"target": "ES2018",
+		"jsx": "react-jsx"
+	}
+}
