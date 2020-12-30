@@ -3,6 +3,9 @@ import React, {useState} from "react";
 import ReactDOM from "react-dom";
 import styled from "@emotion/styled";
 
+import 'firebase/analytics'
+import 'firebase/auth'
+
 const MAX_VIEWER = 2;
 
 const Root = styled.div`

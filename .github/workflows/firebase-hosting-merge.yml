@@ -19,5 +19,6 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_RTAINJAPAN }}"
           channelId: live
           projectId: rtainjapan
+          target: rtaij-obsninja
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
