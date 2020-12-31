@@ -3,7 +3,9 @@
     "rules": "database.rules.json"
   },
   "hosting": {
+    "site": "rtaij-obsninja",
     "public": "dist",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
